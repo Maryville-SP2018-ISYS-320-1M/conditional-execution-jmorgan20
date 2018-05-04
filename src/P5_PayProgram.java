@@ -17,8 +17,19 @@ public class P5_PayProgram {
 		System.out.println("Enter the number of hours you worked this week: ");
 		int numOfHoursWorked = input.nextInt();
 		
+		double result = pay(hourlyRate, numOfHoursWorked);
+		System.out.println("pay = " + result);
+		
+		result = pay(hourlyRate , numOfHoursWorked);
+		System.out.println("pay = " + result);
+		
 		
 
+	}
+	
+	public static double pay(double hourlyRate, int numOfHoursWorked) {
+		if(numOfHoursWorked >= 8);
+		return numOfHoursWorked;
 	}
 
 }

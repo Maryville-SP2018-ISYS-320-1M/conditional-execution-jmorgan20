@@ -9,14 +9,14 @@ import java.util.Scanner;
 /*
  Your expected result:
  
- 1.
- 2.
- 3. 
- 4.
+ 1.true
+ 2.false
+ 3. false
+ 4.true
  
- 5.
- 6.
- 7.
+ 5.false
+ 6.true
+ 7.true
   
  */
 public class P3_ConditionalExpressions {
@@ -27,7 +27,14 @@ public class P3_ConditionalExpressions {
 		int z = 4;
 		
 		// Replace "YOUR EXPRESSION HERE" with the expression you're validating
-		System.out.println("Expression evaluates to: " + ("YOUR EXPRESSION HERE") );
+		System.out.println("Expression evaluates to: " + (x == 4) );
+		System.out.println("Expression evaluates to: " + (x != z) );
+		System.out.println("Expression evaluates to: " + (z == y) );
+		System.out.println("Expression evaluates to: " + (x + y > 0) );
+		System.out.println("Expression evaluates to: " + (y * y <= z) );
+		System.out.println("Expression evaluates to: " + (y / y == 1) );
+		System.out.println("Expression evaluates to: " + (x * (y + 2) > y - (y+ z) * 2) );
+		
 	}
 
 }
